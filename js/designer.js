@@ -25,6 +25,7 @@ $(document).ready(function(){
         $("#model-properties-placeholder").html(properties);
 
         $("#control" + globalControlID).parent(".draggable").draggable();
+        window.location.hash = "#control" + globalControlID;
         $("#control-properties-modal").show();
     });
 
